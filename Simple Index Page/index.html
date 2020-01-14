@@ -13,24 +13,48 @@
     <header>
         <img src="assets/techSavy.png" alt="" width='100%'>
     </header>
+    <aside>
+        <h2>&nbsp; This Page Uses</h2>
+        <ul>
+            <li>Semantics</li>
+            <li>Basic HTML5 Tags</li>
+            <li>CSS</li>
+            <li>Images</li>
+            <li>External Styling</li>
+            <li>Soft Coded Variables ${VAR}</li>
+        </ul>
+    </aside>
     <main>
         <div class="grad">
-            <h1>Learn HTML5 and boost your knowledge.</h1>
+            <h1>Hire me for your business webpage design.</h1>
         </div>
-        <aside>
-            <h2>&nbsp; This Page Uses</h2>
+        <div>
+            <h1>Chenelle L. Travis</h1>
+            <a href="#Foods">One</a> <a href="#achievements">Two</a> <a href="#about">Three</a> <a href="https://www.collegepotatoes.com/">Student Charity Center</a>
+            <h2 id="Foods">Favorite Foods</h2>
             <ul>
-                <li>Semantics</li>
-                <li>Basic HTML5 Tags</li>
-                <li>CSS</li>
-                <li>Images</li>
-                <li>External Styling</li>
-                <li>Soft Coded Variables ${VAR}</li>
+                <li>Mangos</li>
+                <li>Fish</li>
+                <li>Aloe</li>
+                <li>Pancakes</li>
             </ul>
-        </aside>
-        <br>
-        <img class="decor" src="assets/codeBrain.png" alt="Coding Upgrades Your Brain">
-        <br>
+            <h2 id="achievements">Achievements</h2>
+            <p inline>Progress in this course (100%)</p><progress value="5" max="5" inline></progress>
+            <p inline>Progress in the Specialization capstone (%20)</p><progress value="2" max="10" inline></progress>
+            <p inline>Progress in life goals (51%)</p><progress value="51" max="100" inline></progress>
+            <h2 id="about">More About Me</h2>
+            <p>I grew up in Oregon with brothers. It rains 68% of the year and has lovely waterfalls.</p>
+
+            <canvas id="myCanvas" width="200" height="300"></canvas>
+            <script type="text/javascript">
+                var canvas = document.getElementById('myCanvas');
+                var ctx = canvas.getContext('2d');
+                ctx.font = "bold 36px sans-serif";
+                ctx.filltext("WD4E", 10, 100);
+                ctx.fillStyle = "";
+                ctx.rotate(-2.25);
+            </script>
+        </div>
     </main>
     <footer>
         <nav class="footgrad"> 
