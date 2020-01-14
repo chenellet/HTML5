@@ -21,7 +21,7 @@
             <li>CSS</li>
             <li>Images</li>
             <li>External Styling</li>
-            <li>Soft Coded Variables ${VAR}</li>
+            <li>Internal Links</li>
         </ul>
     </aside>
     <main>
@@ -30,7 +30,9 @@
         </div>
         <div>
             <h1>Chenelle L. Travis</h1>
-            <a href="#Foods">One</a> <a href="#achievements">Two</a> <a href="#about">Three</a> <a href="https://www.collegepotatoes.com/">Student Charity Center</a>
+            <div class="links">
+                <h3><a href="#Foods">One</a> | <a href="#achievements">Two</a> | <a href="#about">Three</a> | <a href="https://www.collegepotatoes.com/">Student Charity Center</a></h3>
+            </div>
             <h2 id="Foods">Favorite Foods</h2>
             <ul>
                 <li>Mangos</li>
@@ -39,21 +41,13 @@
                 <li>Pancakes</li>
             </ul>
             <h2 id="achievements">Achievements</h2>
-            <p inline>Progress in this course (100%)</p><progress value="5" max="5" inline></progress>
-            <p inline>Progress in the Specialization capstone (%20)</p><progress value="2" max="10" inline></progress>
-            <p inline>Progress in life goals (51%)</p><progress value="51" max="100" inline></progress>
+            <p inline>Progress in this course (100%) <progress value="5" max="5"></progress></p>
+            <p inline>Progress in the Specialization capstone (20%) <progress value="2" max="10"></progress></p>
+            <p inline>Progress in life goals (51%) <progress value="51" max="100"></progress></p>
             <h2 id="about">More About Me</h2>
             <p>I grew up in Oregon with brothers. It rains 68% of the year and has lovely waterfalls.</p>
 
-            <canvas id="myCanvas" width="200" height="300"></canvas>
-            <script type="text/javascript">
-                var canvas = document.getElementById('myCanvas');
-                var ctx = canvas.getContext('2d');
-                ctx.font = "bold 36px sans-serif";
-                ctx.filltext("WD4E", 10, 100);
-                ctx.fillStyle = "";
-                ctx.rotate(-2.25);
-            </script>
+            <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E">
         </div>
     </main>
     <footer>

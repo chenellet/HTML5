@@ -4,8 +4,9 @@ header {
 }
 main {
   background-color: rgba(209, 207, 207, 0.719);
-  width: 72%;
   float: right;
+  margin-top: 1em;
+  width: 72%;
 }
 footer {
   background-color: darkgrey;
@@ -23,7 +24,8 @@ nav {
   padding-bottom: 1em;
 }
 a{
-  color: white;
+  color:white;
+  text-shadow: 2px 2px rgb(63, 63, 63);
   text-decoration: none;
 }
 a:hover {
@@ -37,6 +39,12 @@ a:visited {
 aside {
   float: left;
   width: 25%;
+}
+progress {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .25) inset;
+  border-color: gray;
 }
 h1 {
   text-align: center;
@@ -61,13 +69,6 @@ ul {
   margin: 0;
   text-align: right;
 }
-
-li {
-  background-image: linear-gradient(to left, white, grey, white);
-  background-repeat: no-repeat;
-  background-position: 100% .1em;
-  padding-right: .6em;
-}
 .decor {
   display: block;
   margin-left: auto;
@@ -79,4 +80,7 @@ li {
 }
 .footgrad {
   background-image: linear-gradient(to left, rgba(14, 6, 58, 0.719), rgb(114, 114, 201), rgba(14, 6, 58, 0.719));
+}
+.links {
+  text-align: center;
 }
