@@ -1,0 +1,76 @@
+header {
+  background-color: white;
+  text-align: center;
+}
+main {
+  background-color: rgba(209, 207, 207, 0.719);
+}
+footer {
+  background-color: darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+nav {
+  text-align: center;
+  background-color: rgb(0, 68, 68);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: whitesmoke;
+  text-decoration: underlined;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+aside {
+  float: left;
+  width: 25%;
+}
+h1 {
+  text-align: center;
+  width: max-content;
+  padding: 0em;
+  margin: 0em;
+  border-bottom: 2px solid darkblue;
+}
+h2 {
+  background-image: linear-gradient(to left, rgb(22, 2, 110), rgb(84, 63, 202), rgb(22, 2, 110));
+  color: white;
+  text-align: center;
+}
+hr {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+li {
+  background-image: linear-gradient(to left, white, grey, white);
+  background-repeat: no-repeat;
+  background-position: 100% .1em;
+  padding-right: .6em;
+}
+.decor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.grad {
+  background-image: linear-gradient(to left, grey, white, grey);
+}
+.footgrad {
+  background-image: linear-gradient(to left, rgba(14, 6, 58, 0.719), rgb(114, 114, 201), rgba(14, 6, 58, 0.719));
+}

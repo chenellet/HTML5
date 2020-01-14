@@ -1,0 +1,35 @@
+ <div class="slideshow fade">
+            <img src="assets/header_img.png" alt="HTML5" height="300px">
+        </div>
+        <div class="slideshow fade">
+            <img src="assets/header_img2.jpg" alt="Code Flicker" height="300px">
+        </div>
+        <div class="slideshow fade">
+            <img src="assets/techSavy.png" alt="Code Flicker" height="300px">
+        </div>
+    
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("slideshow");
+              
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              
+              slides[slideIndex-1].style.display = "block";  
+             
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+        <nav>
+            <a href="https://www.coursera.org/">Visit Coursera</a> |
+            <a href="https://www.collegepotatoes.com">Student Charity</a> |
+            <a href="https://stackoverflow.com">Stack Overflow</a>
+        </nav>
+</div>

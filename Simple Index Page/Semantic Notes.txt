@@ -1,0 +1,48 @@
+// Semantic Tag Lesson Notes
+
+You need a clear picture of what you want to create, before you can begin coding.
+>> Psuedo Code and Page Layout
+
+// Example of old layout
+<------header------>
+<section> |< aside
+<article> |   bar  >
+<------Footer------>
+
+//new layouts use scrolling layouts with header navigation
+
+<------header------>
+<-  Fixed Nav Bar ->
+<--    section    ->
+    Marquee Images
+<--    section    ->
+    Graphics
+    Info/Desc
+<--    section    ->
+    Graphics
+    Info/Desc
+<--    section    ->
+     Testamonials
+     Graphics
+     Info
+<--    footer    -->
+     Copyright
+     Quick Links
+     Terms
+     Social Media
+     
+<header> block tag: A group of introductory or navigational aids: title, navigation links, etc.
+<nav> block tag: A navigational internal link area
+<footer> block tag: copyright data, related documents, social media // Not required
+<figure> block tag: includes additional info like images, media, or captions.
+
+Structural Elements
+    articles, aside, main, menuitem, summary
+Form Elements
+    datalist, keygen, output
+Input Types
+    color, date, email, list
+Graphics Elements
+    canvas, svg
+Media Elements
+    audio, embed, source, track, video
