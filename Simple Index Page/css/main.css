@@ -28,6 +28,12 @@ a{
   text-shadow: 2px 2px rgb(63, 63, 63);
   text-decoration: none;
 }
+aside ul li a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px;
+  font-weight: bold;
+}
 a:hover {
   color: whitesmoke;
   text-decoration: underlined;

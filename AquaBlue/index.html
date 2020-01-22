@@ -1,0 +1,116 @@
+<!Doctype html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="all" href="../../CSS3/advanced-blue.css">
+    <link rel="stylesheet" media="all" href="../../CSS3/dropDownMenu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+    <script>
+        (function() {
+            var cx = '013597448391157615394:zkaxhle7gbt';
+            var gcse = document.createElement("script");
+            gcse.type = "text/javascript";
+            gcse.async = true;
+            gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(gcse, s);
+            })();
+            window.onload = function()
+            { 
+            var searchBox =  document.getElementById("gsc-i-id1");
+            searchBox.placeholder="Search";
+            searchBox.title="Search"; 
+            }
+   </script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="../../Graphics/yourLogoHere.png" alt="Your Logo Here"> 
+        </div>
+        <div class="search">
+            <gcse:search></gcse:search>
+            <aside onclick="activeBars(this); showMenu()" class="dropdown; dropbtn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <script>
+                    function activeBars(x) {
+                    x.classList.toggle("change");
+                    }
+                </script>
+                  <div id="dropMenu" class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                  </div>
+                <script>
+                    /* toggle between hiding and showing the dropdown content */
+                    function showMenu() {
+                        document.getElementById("dropMenu").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        
+                        for(i = 0; i <x.length; i++){
+                            if(dropdowns[i].style.display == 'none') {
+                                dropdowns[i].style.display = 'show';
+                            } else {
+                                dropdowns[i].style.display = 'none';
+                            } 
+                        }
+                    }
+                </script>
+            </aside>
+        </div>
+    </header>
+    <main>
+        <div class="container"> 
+            <img class="titleImage" src="../../Graphics/streamView.jpg" alt="">
+            <div >
+                <div class="centered">
+                    <h1>Clean, Clear, Beautiful Water.</h1>
+                    <div class="ads">
+                        <h2>Providing Clean Water</h2>
+                        <img src="../../Graphics/WaterAid.png" width="100%" alt="">
+                    </div>
+                    <div class="ads">
+                        <h2>Check My Service Area.</h2><br><br>
+                        <input type="number" maxlength="5" placeholder="ZipCode">
+                        <h3>Some service areas may not be covered. Please see the service chart for coverage.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="../../Graphics/logoFooter.png" alt="">
+        <div class="tree">
+            About Us<br>
+            Site Map<br>
+            FAQ
+        </div>
+        <div class="tree">
+            Home<br>
+            Privacy Policy<br>
+            Service Area</div>
+        <div class="tree">
+            Careers<br>
+            Contact<br>
+            Nutrition
+        </div>
+        <br>
+        <div class="social">
+            <a href="https://www.facebook.com/ctravis7" aria-label="Facebook" tabindex="4"><i class="fab fa-facebook-f"></i></a>
+            <i class="fas fa-thumbs-up"></i>
+            <a href="https://www.youtube.com/channel/UCV5CarHix-6XJq6N1cuK3bg" aria-label="YouTube" tabindex="5"><i class="fab fa-youtube"></i></a>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fas fa-share-alt"></i>
+        </div>
+        <h6>Terms and Conditions | Unsubscribe</h6>
+    </footer>
+</body>
