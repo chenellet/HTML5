@@ -3221,6 +3221,7 @@ input, select, textarea {
 			background-image: url(../../../../../Graphics/PinkBubbleBG.png);
 			background-repeat: repeat-y;
 			background-size: 60% auto;
+			box-shadow: 5px 5px 30px #000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3585,6 +3586,7 @@ input, select, textarea {
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
 						background-size: 40rem auto;
+						box-shadow: 5px 5px 30px #000;
 					}
 
 						#wrapper > section > header > * {
